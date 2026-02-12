@@ -18,7 +18,6 @@ public class Taller1 {
     public static void main(String[] args) {
         ejercicio4 ();
         
-    
     }
     public static void ejercicio1 () {
         int n1= Integer.parseInt(JOptionPane.showInputDialog("escribe la nota del parcial 1 (el numero debe ser entero)"));
@@ -48,5 +47,19 @@ public class Taller1 {
         else { 
             JOptionPane.showInputDialog(" el numero" + x1 + "es impar ");
         }
+    public static void ejercicio5 () {
+        int m1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+        int m2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+        int m3 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+        if (m1== m2+m3) {
+            JOptionPane.showInputDialog("un numero de los que ingreso es la suma de los otros dos ");
+        }
+        if (m2==m1+m3) {
+            JOptionPane.showInputDialog("un numero de los que ingreso es la suma de los otros dos ");
+        }
+        if (m3==m1+m2) {
+            JOptionPane.showInputDialog("un numero de los que ingreso es la suma de los otros dos ");
+        }
+    }
         
     }}
